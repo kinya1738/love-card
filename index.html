@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You ❤️</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+
+    <h1>For You ❤️</h1>
+    <p class="intro">
+      I made this for you… because sometimes words deserve a home.
+    </p>
+
+    <!-- SONG SECTION -->
+    <section class="card">
+      <h2>A song that reminds me of you 🎶</h2>
+      <p>
+        This song feels like you — soft, deep, and honest in a way that lingers.
+      </p>
+      <a
+        href="https://open.spotify.com/search/Sacrifice%20Mariah%20the%20Scientist"
+        target="_blank"
+        class="btn"
+      >
+        Sacrifice — Mariah The Scientist ❤️
+      </a>
+    </section>
+
+    <!-- PHOTO SECTION -->
+   <section class="card">
+      <h2>My favorite moment with you 🥰</h2>
+      <video autoplay muted loop class="fav-video" controls>
+        <source src="photos/fav.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p class="caption">
+        Every time I watch this, I fall in love all over again.
+      </p>
+    </section>
+
+    <!-- THINGS I LOVE ABOUT YOU -->
+    <section class="card">
+      <h2>Things I love about you ❤️</h2>
+      <ul>
+        <li>You are kind</li>
+        <li>I really like your smile (aarghhhh)</li>
+        <li>You make loving you feel easy</li>
+        <li>You've got a great personality</li>
+        <li>You keep it real</li>
+      </ul>
+      <p class="closing">I could keep going…</p>
+    </section>
+
+    <!-- BUTTONS SECTION -->
+    <section class="card">
+      <h2>Little surprises for you 😉</h2>
+      <button onclick="showMessage('message1')">Truth 💌</button>
+      <p id="message1" class="hidden">I can’t stop thinking about your smile 🥰</p>
+      <button onclick="showMessage('message2')">For when you miss me 😏</button>
+       <p id="message2" class="hidden"><img src="photos/Snapchat-1948380396.jpg " alt="I miss you too"> </p>
+       <p id="message2" class="hidden"><img src="photos/Snapchat-1345965876.mp4 " alt="I miss you too"> </p>
+      <button onclick="showMessage('message3')">Feeling freaky? 🔥</button>
+      <p id="message3" class="hidden">I secretly can’t wait to kiss you again 😘</p>
+    </section>
+
+    <footer>
+      Made with love. Just for you ❤️
+    </footer>
+
+  </div>
+
+  <!-- Link to external JS -->
+  <script src="js/index.js"></script>
+</body>
+</html>
+

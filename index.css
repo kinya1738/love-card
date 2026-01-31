@@ -1,0 +1,144 @@
+
+  
+/* ================= BODY ================= */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(180deg, #fff1f2, #ffe4e6); /* soft pink gradient */
+  color: #3a0d0d;
+}
+
+/* ================= CONTAINER ================= */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* ================= HEADINGS ================= */
+h1 {
+  color: #b11226;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  color: #9f1239;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  font-style: italic;
+  color: #7a1f2b;
+  margin-bottom: 2rem;
+}
+
+/* ================= CARDS ================= */
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.8rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 6px 15px rgba(159, 18, 57, 0.15);
+}
+
+/* ================= PARAGRAPHS ================= */
+p {
+  line-height: 1.7;
+}
+
+.caption {
+  font-size: 0.9rem;
+  color: #7a1f2b;
+  margin-top: 0.5rem;
+}
+
+.closing {
+  margin-top: 1.2rem;
+  font-style: italic;
+  color: #7a1f2b;
+}
+
+/* ================= LISTS ================= */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.6rem 0;
+}
+
+/* ================= LINKS AS BUTTONS ================= */
+a.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: white;
+  background-color: #b11226;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+a.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(177, 18, 38, 0.3);
+}
+
+/* ================= BUTTONS ================= */
+button {
+  background-color: #b11226;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  margin: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(177, 18, 38, 0.3);
+}
+
+/* ================= HIDDEN MESSAGES ================= */
+.hidden {
+  display: none;
+  margin-top: 1rem;
+  color: #9f1239;
+  font-style: italic;
+}
+
+/* ================= IMAGES ================= */
+img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 14px;
+  margin-top: 1rem;
+}
+
+/* ================= FOOTER ================= */
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #7a1f2b;
+}
+
+/* ================= VIDEO ================= */
+.fav-video {
+  width: 40%;
+  max-width: 350px;   /* same as images */
+  border-radius: 14px;
+  margin-top: 1rem;
+  display: block;
+}
+
+.fav-video:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
